@@ -140,8 +140,7 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
-clear
-// for (i=4; i > 0; i--){
+// for (i=4; i >= 0; i--){
 //   console.log(letters[i])
 // }
 
@@ -168,7 +167,35 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 
 //Code Here
 
-
+// switch (letterGrade){
+//   case 'A' :
+//  console.log("The student is doing excellently.");
+//   case 'B' : 
+//   console.log("The student is doing well.");
+//   case 'C' : 
+//   console.log("The student is doing alright.");
+//   case 'D' : 
+//   console.log("The student is not doing very well.");
+//   case 'F' : 
+//   console.log("The student is failing.");
+// }
+switch(letterGrade){
+  case 'A' : 
+  console.log("The student is doing excellently.")
+  break;
+  case 'B' : 
+  console.log("The student is doing well.")
+  break; 
+  case 'C' : 
+  console.log("The student is doing alright.")
+  break;
+  case 'D' : 
+  console.log("The student is not doing very well.")
+  break;
+  case 'F' : 
+  console.log("The student is failing.")
+  
+  }
 
 ////////// PROBLEM 11 //////////
 /* The famous FizzBuzz, Devmountain style!
